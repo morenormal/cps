@@ -1,0 +1,120 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff700;
+  font-family: 'Inter', sans-serif;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #36454F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #fff700;
+}
+
+.side-paragraph-left {
+
+  width: 85%;
+  margin-left: -200px;
+  font-family: 'roboto', sans-serif;
+
+}
+
+/*its actually right but im dumb */
+/* i dont think it mattered anyway */
+.side-paragraph-right {
+
+  width: 45%;
+  margin-right: -20px;
+}
+
+/* this is probably wrong but it works */
+.content-sections {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.side-paragraph-left,
+.side-paragraph-right {
+  flex: 1;
+}
+
+.information-box {
+  border: 2px solid #176faa;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px 0;
+  background-color: #444444;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 700px;
+  height: 250px;
+  display: flex;
+
+
+}
+
+/* sir is this tuff  */
+
+
+.email {
+  color: white;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+.boximage {
+
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: auto;
+  height: auto;
+
+}
+
+.bottom {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff700;
+  color: #36454F;
+  text-align: center;
+  padding: 18px 0 14px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+  border-top: 2px solid #e6c200;
+}
+
+.linething {
+  color: #F6BE00;
+  border-bottom: 2px solid #FFD700;
+  margin-top : 10px;
+}
+.footer-link {
+  color: #222;       
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  color: #555;         
+  text-decoration: underline;
+}
